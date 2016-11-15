@@ -32,7 +32,7 @@
     [owParams setObject:@"123" forKey:@"userId"];
     
     // Initialize offerwall
-    [inadNetwork initOfferwall:self adUnitCode:AdUniqueCode postbackData:owParams testMode:false];
+    [inadNetwork initOfferwall:self adUnitCode:AdUniqueCode postbackData:owParams testMode:true];
     
 }
 
